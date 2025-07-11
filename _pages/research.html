@@ -5,27 +5,48 @@ permalink: /research/
 author_profile: true
 ---
 
-## Research Focus
+<div style="margin-top: 20px;">
 
-I’m interested in building efficient machine learning infrastructure, especially at the intersection of **low-level systems** and **model optimization**.
+  <h2>Research Focus</h2>
+  <p>I’m interested in building efficient machine learning infrastructure, especially at the intersection of <strong>low-level systems</strong> and <strong>model optimization</strong>.</p>
 
-## Current & Future Research Goals
+  <h3>Current & Future Research Goals</h3>
+  <ul>
+    <li>Exploring compiler/runtime-level optimizations for GPU compute</li>
+    <li>Designing hardware/software co-optimized training pipelines</li>
+    <li>Investigating scalable distillation methods for LLM deployment</li>
+    <li>Seeking opportunities in ML acceleration and systems research during my time at UC Davis</li>
+  </ul>
 
-- Exploring compiler/runtime-level optimizations for GPU compute  
-- Designing hardware/software co-optimized training pipelines  
-- Investigating scalable distillation methods for LLM deployment  
-- Seeking opportunities in ML acceleration and systems research during my time at UC Davis  
+  <h3>Past Research Projects</h3>
 
-## Past Research Projects
+  <ul>
+    <li>
+      <strong>LLM Distillation Pipeline (NeurIPS 2025 submission)</strong><br>
+      I developed a novel knowledge distillation method called <strong>TuneShift-KD</strong> to transfer specialized knowledge between large language models when the original fine-tuning data is unavailable.
+      The key insight of the method is to identify prompts where the fine-tuned model exhibits lower perplexity than its base model, signaling domain-specific knowledge.
+      These high-gain prompts are expanded iteratively to build a synthetic dataset for distillation.
+      TuneShift-KD is fully automated, requires no access to original data, and outperforms previous approaches in preserving specialized performance.<br>
+      <a href="https://github.com/jeanine5/TuneShift-KD" target="_blank">GitHub Repo</a>
+    </li>
 
-- **LLM Distillation Pipeline (NeurIPS 2025 submission)**  
-  I developed a novel knowledge distillation method called **TuneShift-KD** to transfer specialized knowledge between large language models when the original fine-tuning data is unavailable. The key insight of the method is to identify prompts where the fine-tuned model exhibits lower perplexity than its base model, signaling domain-specific knowledge. These high-gain prompts are expanded iteratively to build a synthetic dataset for distillation. TuneShift-KD is fully automated, requires no access to original data, and outperforms previous approaches in preserving specialized performance.  
-  [GitHub Repo](https://github.com/jeanine5/TuneShift-KD)
+    <li>
+      <strong>Vision Science & Behavioral Coding Tool</strong><br>
+      In collaboration with researchers in psychology, I built a custom behavioral coding interface to annotate pain-related facial expressions in video-based experiments.
+      The project combined a genetic algorithm with reverse correlation to efficiently model participants’ conceptual and visual representations of pain and emotion across seven affective states.
+      By using photorealistic avatars and facial feature manipulation, we captured individual-level perceptual-emotional overlap.
+      This method improved experimental speed and naturalism, and results showed a strong correlation between conceptual and perceptual similarity structures.<br>
+      <a href="https://github.com/jeanine5/Pain-Coding-Tool" target="_blank">GitHub Repo</a>
+    </li>
 
-- **Vision Science & Behavioral Coding Tool**  
-  In collaboration with researchers in psychology, I built a custom behavioral coding interface to annotate pain-related facial expressions in video-based experiments. The project combined a genetic algorithm with reverse correlation to efficiently model participants’ conceptual and visual representations of pain and emotion across seven affective states. By using photorealistic avatars and facial feature manipulation, we captured individual-level perceptual-emotional overlap. This method improved experimental speed and naturalism, and results showed a strong correlation between conceptual and perceptual similarity structures.  
-  [GitHub Repo](https://github.com/jeanine5/Pain-Coding-Tool)
+    <li>
+      <strong>Body Motion & ML with Prof. David Rokeby</strong><br>
+      I worked on training and evolving Variational Autoencoders (VAEs) for the AMASS human motion dataset using genetic algorithms.
+      The models compressed joint quaternion data into latent representations, and I implemented mutation and crossover strategies tailored to VAE structure for optimization.
+      The project explored architectural search under multi-objective constraints such as loss and potential out-of-distribution generalization.
+      I also designed preprocessing pipelines to reshape 3D motion into flattened, trainable formats and built an evaluation workflow to compare VAE performance during training.<br>
+      <a href="/files/Rokeby_Project_Overview.pdf" target="_blank">Project Overview (PDF)</a>
+    </li>
+  </ul>
 
-- **Body Motion & ML with Prof. David Rokeby**  
-  I worked on training and evolving Variational Autoencoders (VAEs) for the AMASS human motion dataset using genetic algorithms. The models compressed joint quaternion data into latent representations, and I implemented mutation and crossover strategies tailored to VAE structure for optimization. The project explored architectural search under multi-objective constraints such as loss and potential out-of-distribution generalization. I also designed preprocessing pipelines to reshape 3D motion into flattened, trainable formats and built an evaluation workflow to compare VAE performance during training.  
-  [Project Overview (PDF)](/files/Rokeby_Project_Overview.pdf)
+</div>
