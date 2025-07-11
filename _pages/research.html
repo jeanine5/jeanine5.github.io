@@ -23,20 +23,21 @@ author_profile: true
   <ul>
     <li>
       <strong>LLM Distillation Pipeline (NeurIPS 2025 submission)</strong><br>
-      I developed a novel knowledge distillation method called <strong>TuneShift-KD</strong> to transfer specialized knowledge between large language models when the original fine-tuning data is unavailable.
+      I, along with a grad student and several undergrad interns, developed a novel knowledge distillation method called <strong>TuneShift-KD</strong> to transfer specialized knowledge between large language models when the original fine-tuning data is unavailable.
       The key insight of the method is to identify prompts where the fine-tuned model exhibits lower perplexity than its base model, signaling domain-specific knowledge.
       These high-gain prompts are expanded iteratively to build a synthetic dataset for distillation.
       TuneShift-KD is fully automated, requires no access to original data, and outperforms previous approaches in preserving specialized performance.<br>
-      <a href="https://github.com/jeanine5/TuneShift-KD" target="_blank">GitHub Repo</a>
+      <a href="https://openreview.net/forum?id=VBFcEJOYV0" target="_blank">Overview</a>
     </li>
 
     <li>
-      <strong>Vision Science & Behavioral Coding Tool</strong><br>
-      In collaboration with researchers in psychology, I built a custom behavioral coding interface to annotate pain-related facial expressions in video-based experiments.
-      The project combined a genetic algorithm with reverse correlation to efficiently model participants’ conceptual and visual representations of pain and emotion across seven affective states.
-      By using photorealistic avatars and facial feature manipulation, we captured individual-level perceptual-emotional overlap.
-      This method improved experimental speed and naturalism, and results showed a strong correlation between conceptual and perceptual similarity structures.<br>
-      <a href="https://github.com/jeanine5/Pain-Coding-Tool" target="_blank">GitHub Repo</a>
+      <strong>Vision Science & Facial Expression Representation</strong><br>
+      This project investigated how individual conceptual knowledge shapes visual representations of facial expressions across six basic emotions and pain.
+      Using a novel combination of reverse correlation and a genetic algorithm, we efficiently generated photorealistic avatars expressing participant-specific affective patterns.
+      Participants completed a conceptual similarity task and a visual reverse correlation task, enabling the construction of individual-level matrices that captured conceptual and perceptual structure.
+      Analyses revealed significant correlations between these matrices, providing robust evidence for a link between how people think about emotions and how they visually perceive them.
+      The results highlight meaningful individual differences in this relationship, advancing our understanding of the cognitive-emotional basis of facial expression interpretation.<br>
+      <a href="https://drive.google.com/file/d/1TRB49jOXAaKSP-bTTZui1nVUcSWSVsFQ/view" target="_blank">Poster Presentation</a>
     </li>
 
     <li>
@@ -45,7 +46,7 @@ author_profile: true
       The models compressed joint quaternion data into latent representations, and I implemented mutation and crossover strategies tailored to VAE structure for optimization.
       The project explored architectural search under multi-objective constraints such as loss and potential out-of-distribution generalization.
       I also designed preprocessing pipelines to reshape 3D motion into flattened, trainable formats and built an evaluation workflow to compare VAE performance during training.<br>
-      <a href="/files/Rokeby_Project_Overview.pdf" target="_blank">Project Overview (PDF)</a>
+      <a href="https://github.com/jeanine5/VAE-NAS" target="_blank">Repo</a>
     </li>
   </ul>
 
