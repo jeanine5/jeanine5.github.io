@@ -1,9 +1,12 @@
 ---
 title: "Conceptual knowledge and individual differences in facial emotion perception using genetic algorithms"
 collection: publications
-permalink: /publication/emotion-poster/
+category: posters
+permalink: /publication/2025-05-01-vss-poster
+excerpt: 'Poster presented at VSS 2025 exploring cultural and individual variations in emotion recognition using genetic algorithm-driven visualization.'
 date: 2025-05-01
-authors: É. St-Pierre, J. Ohene-Agyei, A. Richer, A. Bellerose, F. Gingras, Z. Mharchat, C. Saumure, D. Fiset, R. Caldara, C. Blais
-venue: Vision Sciences Society Annual Meeting (VSS 2025)
-citation: "St-Pierre, É., Ohene-Agyei, J., et al. Conceptual knowledge and individual differences in facial emotion perception using genetic algorithms. Vision Sciences Society Annual Meeting, 2025."
+venue: 'Vision Sciences Society Annual Meeting (VSS 2025)'
+citation: 'St-Pierre, É., Ohene-Agyei, J., Richer, A., Bellerose, A., Gingras, F., Mharchat, Z., Saumure, C., Fiset, D., Caldara, R., Blais, C. (2025). <i>Conceptual knowledge and individual differences in facial emotion perception using genetic algorithms.</i> VSS 2025.'
 ---
+
+We designed and tested a reverse-correlation genetic algorithm to uncover participants’ internal representations of facial emotions. The poster highlights differences across cultural and gender groups, contributing insights to affective science and visual perception research.
