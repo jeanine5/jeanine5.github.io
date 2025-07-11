@@ -7,17 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! I’m **Jeanine Ohene-Agyei**, a Master's student in Computer Science at **UC Davis**, where I focus on the intersection of **machine learning** and **systems infrastructure**. I'm particularly interested in optimizing the full ML stack — from low-level hardware systems to runtime inference — to enable more efficient and scalable deep learning.
+Hi there! I’m **Jeanine**, a Master's student in Computer Science at **UC Davis**. I am looking forward to conducting my thesis on the intersection of **machine learning** and **systems infrastructure**. I'm particularly interested in optimizing the full ML stack — from low-level hardware systems to runtime inference — to enable more efficient and scalable deep learning.
 
-Currently, my research centers around:
-- **Hardware/software co-design for ML acceleration**
-- **LLM distillation and training efficiency**
-- **Compiler/runtime-level optimization for GPU compute**
+My broader research interests lie in hardware/software co-design for ML acceleration, training efficiency and compiler/runtime-level optimization for GPU compute, and I am always seeking opportunities to contribute to research and development in these areas.
 
-I’ve submitted a paper to **NeurIPS 2025** on knowledge distillation for large language models, and I previously worked on a **vision science project** involving behavioral coding and computational tools for psychology experiments.
+I graduated from the University of Toronto this past June with an Honors Bachelors of Science in Computer Science and Math, with Distinction. During my undergradauate years, I've many interesting courses in computer science and math like computational lingsuitcs, artifical intelligence, linear optimzation and many more. I have had the privilege of working closely with and learning from several renowned professors across diverse disciplines. These include [Prof. David Rokeby]([https://www.davidrokeby.com/](http://www.davidrokeby.com/)) (BAFTA winner, machine learning and body motion), [Prof. Caroline Blais]([https://www.ulaval.ca/repertoire-du-personnel/caroline-blais](http://lpvs-uqo.ca/en/directeurs/caroline-blais/)) (vision and perception psychology), and [Prof. Nandita Vijaykumar]([https://www.cs.toronto.edu/~nandita/](https://www.cs.toronto.edu/~nandita/)) (machine learning and systems).
 
-I'm always looking to contribute to impactful research that bridges **systems and AI** — especially in GPU programming, ML compiler infra, or training optimization. If our interests align, feel free to reach out!
+Outside of school, I enjoy watching movies and anime series! My favorite movie is John Wick (Chapter 1-4) and my favorite anime series is Jujutsu Kaisen.
 
----
-
-📄 [View my CV](files/cv.pdf)
+I'm always looking to contribute to impactful research that bridges **systems and AI**. If our interests align, feel free to reach out!
