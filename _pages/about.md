@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m **Jeanine**, a Master's student in Computer Science at **UC Davis**. I am looking forward to conducting my thesis on the intersection of **machine learning** and **systems infrastructure**. I'm particularly interested in optimizing the full ML stack, from low-level hardware systems to runtime inference, to enable more efficient and scalable deep learning.
+I’m Jeanine, a Master's student in Computer Science at **UC Davis**. I am looking forward to conducting my thesis on the intersection of **machine learning** and **systems infrastructure**. I'm particularly interested in optimizing the full ML stack, from low-level hardware systems to runtime inference, to enable more efficient and scalable deep learning.
 
 My broader research interests lie in hardware/software co-design for ML acceleration, training efficiency and compiler/runtime-level optimization for GPU compute, and I am always seeking opportunities to contribute to research and development in these areas.
 
@@ -15,4 +15,4 @@ I graduated from the University of Toronto this past June with an Honors Bachelo
 
 Outside of school, I enjoy watching movies and anime series! My favorite movie is John Wick (Chapters 1-4) and my favorite anime series is Jujutsu Kaisen.
 
-I'm always looking to contribute to impactful research that bridges **systems and AI**. If our interests align, feel free to reach out!
+I'm always looking to contribute to impactful research that bridges systems and AI. If our interests align, feel free to reach out!
